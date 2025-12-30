@@ -5,10 +5,22 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-hello-world_server_1
-      APP_PORT: 3000
+      APP_HOST: smarthome-umbrel-ioBroker_1
+      APP_PORT: 8081
     
-  server:
-    image: getumbrel/community-app-store-hello-world:latest
-    user: "1000:1000"
-    init: true
+services:
+  iobroker:
+    container_name: iobroker
+    image: buanet/iobroker
+    hostname: iobroker
+    restart: always
+    ports:
+      - "8081:8081"
+    volumes:
+      - iobrokerdata:/opt/iobroker
+    environment:
+      - TZ=Europe/Berlin
+      network_mode: host
+
+volumes:
+  iobrokerdata:
