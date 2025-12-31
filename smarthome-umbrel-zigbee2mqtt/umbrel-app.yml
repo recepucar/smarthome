@@ -56,3 +56,4 @@ releaseNotes: >-
 dependencies:
   - mosquitto
 path: ""
+icon: https://www.zigbee2mqtt.io/logo.png
