@@ -2,7 +2,7 @@ manifestVersion: 1
 id: smarthome-umbrel-mosquitto
 name: Mosquitto
 tagline: An open source MQTT broker
-category: automation
+category: SmartHome
 version: "2.0.22"
 port: 9021
 description: >-
@@ -36,3 +36,4 @@ path: ""
 defaultUsername: ""
 submitter: Smarthome
 submission: https://github.com/recepucar/smarthome
+icon: https://mosquitto.org/stickers/mosquitto-colour.png
