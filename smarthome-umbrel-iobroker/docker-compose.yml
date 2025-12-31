@@ -4,5 +4,5 @@ services:
     image: ghcr.io/buanet/iobroker:v11.0.0-build.20251230.234543
     restart: always
     volumes:
-      - umbrel/app-data/smarthome-umbrel-iobroker/iobrokerdata:/opt/iobroker
+      - ${APP_DATA_DIR}/iobrokerdata:/opt/iobroker
     network_mode: host
