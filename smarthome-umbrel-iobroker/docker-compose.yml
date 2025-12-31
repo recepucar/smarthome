@@ -3,7 +3,7 @@ services:
 app_proxy:
     environment:
       APP_HOST: smarthome-umbrel-iobroker_app_1
-      APP_PORT: "12"
+      APP_PORT: "55"
   app:
     container_name: iobroker
     image: iobroker/iobroker:latest
