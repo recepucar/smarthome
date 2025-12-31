@@ -6,7 +6,7 @@ app_proxy:
       APP_PORT: "8081"
   app:
     container_name: iobroker
-    image: iobroker/iobroker:latest
+    image: scorpiobroker/scorpio:latest
      deploy:
       resources:
         reservations:
