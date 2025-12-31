@@ -5,7 +5,7 @@ name: IoBroker
 version: "latest"
 tagline: Home Automation
 description: >-
-  Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+IoBroker is an open source IoT platform written in JavaScript that easily connects smarthome components from different manufactures. With the help of plugins (called: "adapters") ioBroker is able to communicate with a big variety of IoT hardware and services using different protocols and APIs. All data is stored in a central database that all adapters can access. With this it is very easy to build up logical connections, automation scripts and beautiful visualizations.For further details please check out iobroker.net.
 releaseNotes: >-
   This version includes various improvements and bug fixes.
 developer: IoBroker
@@ -21,4 +21,4 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/home-assistant.png
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IoBrokerLogo.svg/250px-IoBrokerLogo.svg.png
