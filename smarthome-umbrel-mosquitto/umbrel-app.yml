@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: mosquitto
+id: smarthome-umbrel-mosquitto
 name: Mosquitto
 tagline: An open source MQTT broker
 category: automation
