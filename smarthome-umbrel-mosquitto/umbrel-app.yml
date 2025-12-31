@@ -2,7 +2,7 @@ manifestVersion: 1
 id: smarthome-umbrel-mosquitto
 name: Mosquitto
 tagline: An open source MQTT broker
-category: SmartHome
+category: Smarthome
 version: "2.0.22"
 port: 9021
 description: >-
