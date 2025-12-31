@@ -1,29 +1,27 @@
 manifestVersion: 1
 id: smarthome-umbrel-iobroker
-category: Home Automation
+category: Smarthome
 name: ioBroker
-version: "11.0.0"
+version: "latest"
 tagline: Offizielles Docker-Image für ioBroker basierend auf Debian Bookworm Slim
 description: >-
- Wichtiger Hinweis
-Neue Hauptversionen des Images (z. B. v6, v7, v8) enthalten in der Regel eine neue Hauptversion von Node! 
-Obwohl js-controller diese Art von Aktualisierung problemlos handhaben sollte, führt dies in einigen Fällen dennoch zu Problemen mit einigen Adaptern. 
-Um Probleme mit diesen Hauptversionsaktualisierungen zu vermeiden, ist es immer ratsam, 
-Ihren Container manuell mit einem Backup- und Wiederherstellungsverfahren zu aktualisieren. 
-Weitere Informationen finden Sie im Wartungsabschnitt der ioBroker Docker Image -
+   Wichtiger Hinweis
+Neue Hauptversionen des Images (z. B. v6, v7, v8) enthalten in der Regel eine neue Hauptversion von Node! Obwohl js-controller diese Art von Aktualisierung problemlos handhaben sollte, führt dies in einigen Fällen dennoch zu Problemen mit einigen Adaptern. Um Probleme mit diesen Hauptversionsaktualisierungen zu vermeiden, ist es immer ratsam, Ihren Container manuell mit einem Backup- und Wiederherstellungsverfahren zu aktualisieren. Weitere Informationen finden Sie im Wartungsabschnitt der ioBroker Docker Image -
 releaseNotes: >-
   This version includes various improvements and bug fixes.
 developer: IoBroker
 website: https://www.iobroker.net/
 dependencies: []
-repo: https://github.com/buanet/ioBroker.docker
-support: https://github.com/buanet/ioBroker.docker/issues
-port: 8081
+repo: https://github.com/recepucar/smarthome
+support: https://github.com/recepucar/smarthome/issues
+port: 10002
 gallery:
-  - https://upload.wikimedia.org/wikipedia/commons/6/62/IoBroker_admin_screenshot.png
-  - https://upload.wikimedia.org/wikipedia/commons/b/b5/Iobroker_Vis2.png
-  - https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Iobroker_logo.svg
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IoBrokerLogo.svg
+submitter: Smarthome
+submission: https://github.com/recepucar/smarthome
