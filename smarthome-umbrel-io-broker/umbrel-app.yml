@@ -1,14 +1,14 @@
 manifestVersion: 1
 id: smarthome-umbrel-io-broker
 category: Smarthome
-name: Home Assistant
+name: Io-Broker
 version: "latest"
 tagline: Home-Automation
 description: >-
   Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 releaseNotes: >-
   This version includes various improvements and bug fixes.
-developer: home-assistant
+developer: Io-Broker
 website: https://github.com/recepucar/smarthome
 dependencies: []
 repo: https://github.com/recepucar/smarthome
@@ -21,4 +21,4 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/home-assistant.png
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IoBrokerLogo.svg
