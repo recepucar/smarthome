@@ -1,0 +1,38 @@
+manifestVersion: 1
+id: mosquitto
+name: Mosquitto
+tagline: An open source MQTT broker
+category: automation
+version: "2.0.22"
+port: 9021
+description: >-
+  Eclipse Mosquitto ist ein Open-Source-Message-Broker (EPL/EDL-lizenziert), der die MQTT-Protokollversionen 5.0, 3.1.1 und 3.1 implementiert. Mosquitto ist ressourcenschonend und eignet sich für den Einsatz auf allen Geräten, von stromsparenden Einplatinencomputern bis hin zu kompletten Servern.
+
+
+  Das MQTT-Protokoll bietet eine ressourcenschonende Methode zur Nachrichtenübermittlung mittels eines Publish/Subscribe-Modells. Dadurch eignet es sich für die Nachrichtenübermittlung im Internet der Dinge, beispielsweise mit stromsparenden Sensoren oder mobilen Geräten wie Smartphones, eingebetteten Computern oder Mikrocontrollern.
+
+
+  Das Mosquitto-Projekt stellt außerdem eine C-Bibliothek zur Implementierung von MQTT-Clients sowie die sehr beliebten Kommandozeilen-MQTT-Clients mosquitto_pub und mosquitto_sub bereit.
+developer: Eclipse Foundation
+website: https://mosquitto.org/
+repo: https://github.com/eclipse-mosquitto/mosquitto
+support: https://github.com/eclipse-mosquitto/mosquitto
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+releaseNotes: >-
+  This update includes several bug fixes and improvements:
+  - Verbesserte Bridge-Funktionalität und optimierte Behandlung von Leerlauf-Timeouts
+  - Behobene Probleme mit der Nachrichtenwarteschlange und Client-Verbindungsabbrüchen
+  - Kompilierungs- und Linkprobleme auf verschiedenen Plattformen behoben
+  - Verbesserte WebSocket-Unterstützung, einschließlich sicherer WebSockets
+  - Verbesserte Speicherverwaltung und Fehlerbehandlung
+
+
+  Die vollständigen Versionshinweise finden Sie unter https://mosquitto.org/blog/
+dependencies: []
+path: ""
+defaultUsername: ""
+submitter: Smarthome
+submission: https://github.com/recepucar/smarthome
