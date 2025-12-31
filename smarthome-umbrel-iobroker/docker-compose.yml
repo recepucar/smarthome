@@ -14,9 +14,6 @@ app_proxy:
     volumes:
       - ${APP_DATA_DIR}/data/work:/opt/iobroker
     restart: always
-    ports:
-      - "8081:8081"
-    hostname: iobroker
         networks:
       # Specify the adguard-home-network
       - iobroker-network
