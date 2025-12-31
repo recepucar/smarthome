@@ -1,0 +1,58 @@
+manifestVersion: 1
+id: smarthome-umbrel-zigbee2mqtt
+name: Zigbee2MQTT
+tagline: ZigBee-zu-MQTT-Brücke, ersetzen Sie Ihre proprietären ZigBee-Brücken.
+category: Smarthome
+version: "2.7.1"
+port: 60082
+description: >-
+  Ermöglicht die Nutzung Ihrer ZigBee-Geräte ohne die Bridge oder das Gateway des Herstellers.
+
+  Es verbindet Ereignisse und ermöglicht die Steuerung Ihrer ZigBee-Geräte über MQTT. So können Sie Ihre ZigBee-Geräte in Ihre bestehende Smart-Home-Infrastruktur integrieren.
+
+  **Kompatibel**
+
+  Zigbee2MQTT unterstützt verschiedene Zigbee-Adapter und eine Vielzahl von Geräten.
+
+
+  **Integrationen**
+
+  Zigbee2MQTT lässt sich gut in die meisten Hausautomatisierungslösungen integrieren, da es MQTT verwendet.
+
+
+  **Open Source**
+
+  Zigbee2MQTT ist unter der freien GNU General Public License 3 lizenziert.
+
+
+  **Setup** 
+
+  Nach der Installation wird Ihnen ein Einrichtungsassistent angezeigt. Wählen Sie Ihr Gerät aus und legen Sie los. Nach der Einrichtung müssen Sie die App erneut öffnen, um auf die Weboberfläche zuzugreifen.
+developer: "@Koenkk"
+website: "https://www.zigbee2mqtt.io/"
+submitter: "dirstel"
+submission: https://github.com/recepucar/smarthome/
+repo: "https://github.com/Koenkk/zigbee2mqtt"
+support: "https://github.com/Koenkk/zigbee2mqtt/issues"
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+releaseNotes: >-
+  This hotfix release resolves an issue causing excessive disk writes that could crash Zigbee2MQTT.
+
+
+  Key improvements and fixes:
+    - Problem mit übermäßigen Festplattenschreibvorgängen behoben
+    - Erweiterte Geräteunterstützung für Aqara W600, Tuya PJ1203A und verschiedene andere Geräte
+    - Verbesserte Home Assistant-Integration für Klimageräte
+    - Behobene OTA-Updates für verschiedene Ledvance-Stecker
+    - Korrelierter Farbtemperaturbereich für Philips-Lampen
+    - Diverse Fehlerbehebungen und Stabilitätsverbesserungen
+    - Unterstützung für 20 neue Geräte
+
+
+  Die vollständigen Versionshinweise finden Sie unter https://github.com/Koenkk/zigbee2mqtt/releases
+dependencies:
+  - mosquitto
+path: ""
