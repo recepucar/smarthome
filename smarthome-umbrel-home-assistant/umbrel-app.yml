@@ -9,10 +9,10 @@ description: >-
 releaseNotes: >-
   This version includes various improvements and bug fixes.
 developer: home-assistant
-website: https://github.com/bigbeartechworld/big-bear-casaos
+website: https://github.com/recepucar/smarthome
 dependencies: []
-repo: https://github.com/bigbeartechworld/big-bear-casaos
-support: https://github.com/bigbeartechworld/big-bear-casaos/issues
+repo: https://github.com/recepucar/smarthome
+support: https://github.com/recepucar/smarthome/issues
 port: 8123
 gallery:
   - 1.jpg
