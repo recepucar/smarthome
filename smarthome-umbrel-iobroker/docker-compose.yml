@@ -2,7 +2,7 @@ version: "3.7"
 services:
 app_proxy:
     environment:
-      APP_HOST: smarthome-umbrel-adguard-home_app_1
+      APP_HOST: smarthome-umbrel-iobroker_app_1
       APP_PORT: "12"
   app:
     container_name: iobroker
