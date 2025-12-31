@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   app:
-    image: ghcr.io/buanet/iobroker:latest
+    image: ghcr.io/buanet/iobroker:v11.0.0-build.20251230.234543
     restart: unless-stopped
     volumes:
       - ${APP_DATA_DIR}/config:/config
