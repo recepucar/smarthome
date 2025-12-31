@@ -2,7 +2,7 @@ version: "3.7"
 services:
   server:
     container_name: iobroker
-    image: iobroker/iobroker:latest
+    image: scorpiobroker/all-in-one-runner
     volumes:
       - ${APP_DATA_DIR}/data/work:/opt/iobroker
     restart: always
