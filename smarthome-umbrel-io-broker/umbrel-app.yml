@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: smarthome-umbrel-io-broker
+category: Smarthome
+name: io-broker
+version: "latest"
+tagline: Home Automation
+description: >-
+  Open-Source-Hausautomation, die lokale Kontrolle und Datenschutz in den Vordergrund stellt. Unterstützt von einer weltweiten Community aus Tüftlern und DIY-Begeisterten. Ideal für den Einsatz auf einem Raspberry Pi oder einem lokalen Server.
+releaseNotes: >-
+  Diese Version enthält diverse Verbesserungen und Fehlerbehebungen.
+developer: io-broker
+website: https://github.com/recepucar/smarthome
+dependencies: []
+repo: https://github.com/recepucar/smarthome
+support: https://github.com/recepucar/smarthome/issues
+port: 8123
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/home-assistant.png
+submitter: SmartHome
+submission: https://github.com/recepucar/smarthome
