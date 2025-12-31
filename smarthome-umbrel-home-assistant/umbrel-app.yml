@@ -6,7 +6,7 @@ version: "latest"
 tagline: Home Automation
 description: >-
   Open-Source-Hausautomation, die lokale Kontrolle und Datenschutz in den Vordergrund stellt. Unterstützt von einer weltweiten Community aus Tüftlern und DIY-Begeisterten. Ideal für den Einsatz auf einem Raspberry Pi oder einem lokalen Server.
-  releaseNotes: >-
+releaseNotes: >-
   Diese Version enthält diverse Verbesserungen und Fehlerbehebungen.
 developer: home-assistant
 website: https://github.com/recepucar/smarthome
