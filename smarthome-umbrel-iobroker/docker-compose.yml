@@ -2,9 +2,10 @@ version: "3.7"
 services:
   app:
     image: buanet/iobroker:latest
-    restart: unless-stopped
+    hostname: iobroker
+    restart: always
+    ports:
+      - "8081:8081"
     volumes:
-      - ${APP_DATA_DIR}/config:/config
-      - /etc/localtime:/etc/localtime:ro
-      - /run/dbus:/run/dbus:ro
+      - iobrokerdata:/opt/iobroker
     network_mode: host
