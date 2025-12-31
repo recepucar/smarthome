@@ -5,9 +5,8 @@ name: Paperless-ngx
 version: "2.20.3"
 tagline: Paperless-ngx
 description: >-
-  Paperless-ngx is a community-supported open-source document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper. 
-releaseNotes: >-
-  This version includes various improvements and bug fixes.
+  Paperless-ngx ist ein von der Community unterstütztes Open-Source-Dokumentenverwaltungssystem, das Ihre physischen Dokumente in ein durchsuchbares Online-Archiv umwandelt, sodass Sie weniger Papier benötigen.releaseNotes: >-
+  Diese Version enthält diverse Verbesserungen und Fehlerbehebungen.
 developer: paperless-ngx
 website: https://hub.docker.com/r/paperless-ngx/paperless-ngx
 dependencies: []
@@ -22,5 +21,5 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/paperless-ngx.png
-submitter: Smarthome
+submitter: SmartHome
 submission: https://github.com/recepucar/smarthome
