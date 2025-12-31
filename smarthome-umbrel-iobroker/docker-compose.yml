@@ -4,5 +4,5 @@ services:
     image: ghcr.io/buanet/iobroker:v11.0.0-build.20251230.234543
     restart: unless-stopped
     volumes:
-      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/opt/iobroker:/usr/src/opt/iobroker
     network_mode: host
