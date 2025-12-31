@@ -1,7 +1,7 @@
 id: smarthome-umbrel-iobroker
 category: Smarthome
 name: IoBroker
-version: "v11.0.0"
+version: "11.0.0"
 tagline: Home-Automation
 description: >-
   ioBroker ist eine kostenlose Open-Source-Software, die als zentrales Gehirn für dein Smart Home dient und verschiedenste Geräte, Systeme und Dienste unterschiedlicher Hersteller (wie Licht, Heizung, Sensoren, Sprachassistenten) miteinander verbindet und steuert.
