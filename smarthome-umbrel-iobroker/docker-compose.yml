@@ -2,10 +2,7 @@ version: "3.7"
 services:
   app:
     image: ghcr.io/buanet/iobroker:latest
-    hostname: iobroker
     restart: always
-    ports:
-      - "8081:8081"
     volumes:
-      - iobrokerdata:/opt/iobroker
+      - ${APP_DATA_DIR}/opt/iobroker
     network_mode: host
