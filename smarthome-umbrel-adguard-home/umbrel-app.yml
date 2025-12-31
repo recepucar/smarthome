@@ -11,8 +11,8 @@ releaseNotes: >-
 developer: AdGuardTeam
 website: https://hub.docker.com/r/adguard/adguardhome
 dependencies: []
-repo: https://github.com/bigbeartechworld/big-bear-universal-apps
-support: https://github.com/bigbeartechworld/big-bear-universal-apps/issues
+repo: https://github.com/recepucar/smarthome
+support: https://github.com/recepucar/smarthome/issues
 port: 10002
 gallery:
   - 1.jpg
