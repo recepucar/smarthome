@@ -5,9 +5,8 @@ name: Home Assistant
 version: "latest"
 tagline: Home Automation
 description: >-
-  Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
-releaseNotes: >-
-  This version includes various improvements and bug fixes.
+  Open-Source-Hausautomation, die lokale Kontrolle und Datenschutz in den Vordergrund stellt. Unterstützt von einer weltweiten Community aus Tüftlern und DIY-Begeisterten. Ideal für den Einsatz auf einem Raspberry Pi oder einem lokalen Server.releaseNotes: >-
+  Diese Version enthält diverse Verbesserungen und Fehlerbehebungen.
 developer: home-assistant
 website: https://github.com/recepucar/smarthome
 dependencies: []
@@ -22,3 +21,5 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/home-assistant.png
+submitter: SmartHome
+submission: https://github.com/recepucar/smarthome
