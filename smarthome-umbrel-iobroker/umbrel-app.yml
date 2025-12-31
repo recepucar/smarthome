@@ -1,19 +1,19 @@
 manifestVersion: 1.1
 id: smarthome-umbrel-iobroker
 category: Smarthome
-name: ioBroker
+name: Home Assistant3
 version: "latest"
-tagline: Offizielles Docker-Image für ioBroker basierend auf Debian Bookworm Slim
+tagline: Home Automation
 description: >-
-Neue Hauptversionen des Images (z. B. v6, v7, v8) enthalten in der Regel eine neue Hauptversion von Node! Obwohl js-controller diese Art von Aktualisierung problemlos handhaben sollte, führt dies in einigen Fällen dennoch zu Problemen mit einigen Adaptern. Um Probleme mit diesen Hauptversionsaktualisierungen zu vermeiden, ist es immer ratsam, Ihren Container manuell mit einem Backup- und Wiederherstellungsverfahren zu aktualisieren. Weitere Informationen finden Sie im Wartungsabschnitt der ioBroker Docker Image -
+  Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
 releaseNotes: >-
   This version includes various improvements and bug fixes.
-developer: IoBroker
-website: https://www.iobroker.net/
+developer: home-assistant
+website: https://github.com/recepucar/smarthome
 dependencies: []
 repo: https://github.com/recepucar/smarthome
 support: https://github.com/recepucar/smarthome/issues
-port: 8081
+port: 8123
 gallery:
   - 1.jpg
   - 2.jpg
@@ -22,5 +22,3 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/home-assistant.png
-submitter: Smarthome
-submission: https://github.com/recepucar/smarthome
