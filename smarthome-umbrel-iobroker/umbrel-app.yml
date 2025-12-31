@@ -21,6 +21,6 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IoBrokerLogo.svg
+icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/home-assistant.png
 submitter: Smarthome
 submission: https://github.com/recepucar/smarthome
