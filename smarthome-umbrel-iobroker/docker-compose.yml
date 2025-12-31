@@ -10,7 +10,6 @@ app_proxy:
      deploy:
       resources:
         reservations:
-          memory: 64M
     volumes:
       - ${APP_DATA_DIR}/data/work:/opt/iobroker
     restart: always
