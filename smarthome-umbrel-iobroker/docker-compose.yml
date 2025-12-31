@@ -2,7 +2,7 @@ version: "3.7"
 services:
   server:
     container_name: iobroker
-    image: scorpiobroker/all-in-one-runner
+    image: ghcr.io/home-assistant/home-assistant:latest
     volumes:
       - ${APP_DATA_DIR}/data/work:/opt/iobroker
     restart: always
