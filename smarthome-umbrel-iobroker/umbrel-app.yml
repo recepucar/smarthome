@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: smarthome-umbrel-iobroker
 category: Smarthome
-name: IoBroker1
+name: IoBroker
 version: "11.0.0"
 tagline: Home-Automation
 description: >-
