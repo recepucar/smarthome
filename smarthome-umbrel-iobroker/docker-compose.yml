@@ -6,7 +6,7 @@ app_proxy:
       APP_PORT: "12"
   app:
     container_name: iobroker
-    image: buanet/iobroker:latest
+    image: iobroker/iobroker:latest
      deploy:
       resources:
         reservations:
