@@ -1,15 +1,27 @@
 version: "3.7"
 services:
-  iobroker:
+app_proxy:
+    environment:
+      APP_HOST: smarthome-umbrel-adguard-home_app_1
+      APP_PORT: "12"
+  app:
     container_name: iobroker
     image: buanet/iobroker:latest
-    hostname: iobroker
+     deploy:
+      resources:
+        reservations:
+          memory: 64M
+    volumes:
+      - ${APP_DATA_DIR}/data/work:/opt/iobroker
     restart: always
     ports:
       - "8081:8081"
-    volumes:
-      - iobrokerdata:/opt/iobroker
-      network_mode: host
-
-volumes:
-  iobrokerdata:
+    hostname: iobroker
+        networks:
+      # Specify the adguard-home-network
+      - iobroker-network
+# Networks used by the application
+networks:
+  # Define the network for AdGuard Home
+  iobroker-network:
+    driver: bridge
