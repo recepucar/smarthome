@@ -2,7 +2,7 @@ manifestVersion: 1
 id: smarthome-umbrel-home-assistant
 category: Smarthome
 name: Home Assistant
-version: "2025.10.4"
+version: "latest"
 tagline: Home Automation
 description: >-
   Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
