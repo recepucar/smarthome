@@ -1,13 +1,13 @@
-id: smarthome-umbrel-io-broker
+id: smarthome-umbrel-iobroker
 category: Smarthome
-name: IoBroker4
-version: "latest"
+name: IoBroker
+version: "v11.0.0"
 tagline: Home-Automation
 description: >-
-  Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.
+  ioBroker ist eine kostenlose Open-Source-Software, die als zentrales Gehirn für dein Smart Home dient und verschiedenste Geräte, Systeme und Dienste unterschiedlicher Hersteller (wie Licht, Heizung, Sensoren, Sprachassistenten) miteinander verbindet und steuert, hersteller- und protokollunabhängig. Es läuft auf Plattformen wie Raspberry Pi, Windows, Linux und macOS und ermöglicht durch sogenannte Adapter die Integration, Automatisierung und Visualisierung (z.B. mit VIS) der gesamten Haussteuerung in einer einheitlichen Oberfläche. 
 releaseNotes: >-
-  This version includes various improvements and bug fixes.
-developer: IoBroker4
+  Diese Version enthält diverse Verbesserungen und Fehlerbehebungen.
+developer: IoBroker
 website: https://github.com/recepucar/smarthome
 dependencies: []
 repo: https://github.com/recepucar/smarthome
