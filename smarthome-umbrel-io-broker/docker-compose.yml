@@ -1,23 +1,10 @@
 version: "3.7"
 services:
-app_proxy:
-    environment:
-      APP_HOST: smarthome-umbrel-iobroker_app_1
-      APP_PORT: "8081"
   app:
-    container_name: iobroker
-    image: scorpiobroker/scorpio:latest
-     deploy:
-      resources:
-        reservations:
+    image: ghcr.io/home-assistant/home-assistant:latest
+    restart: unless-stopped
     volumes:
-      - ${APP_DATA_DIR}/data/work:/opt/iobroker
-    restart: always
-        networks:
-      # Specify the adguard-home-network
-      - iobroker-network
-# Networks used by the application
-networks:
-  # Define the network for AdGuard Home
-  iobroker-network:
-    driver: bridge
+      - ${APP_DATA_DIR}/config:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
+    network_mode: host
