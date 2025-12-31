@@ -5,7 +5,7 @@ name: io-broker
 version: "latest"
 tagline: Home Automation
 description: >-
-  Open-Source-Hausautomation, die lokale Kontrolle und Datenschutz in den Vordergrund stellt. Unterstützt von einer weltweiten Community aus Tüftlern und DIY-Begeisterten. Ideal für den Einsatz auf einem Raspberry Pi oder einem lokalen Server.
+  ioBroker ist eine kostenlose Open-Source-Software, die als zentrales Gehirn für dein Smart Home dient und verschiedenste Geräte, Systeme und Dienste unterschiedlicher Hersteller (wie Licht, Heizung, Sensoren, Sprachassistenten) miteinander verbindet und steuert.
 releaseNotes: >-
   Diese Version enthält diverse Verbesserungen und Fehlerbehebungen.
 developer: io-broker
@@ -21,6 +21,6 @@ gallery:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
-icon: https://cdn.jsdelivr.net/gh/selfhst/icons/png/home-assistant.png
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IoBrokerLogo.svg/250px-IoBrokerLogo.svg.png
 submitter: SmartHome
 submission: https://github.com/recepucar/smarthome
