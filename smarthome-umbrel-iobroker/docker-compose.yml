@@ -9,8 +9,6 @@ services:
       - "8081:8081"
     volumes:
       - iobrokerdata:/opt/iobroker
-    environment:
-      - TZ=Europe/Berlin
       network_mode: host
 
 volumes:
