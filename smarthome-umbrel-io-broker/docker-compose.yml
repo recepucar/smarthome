@@ -5,5 +5,4 @@ services:
     restart: unless-stopped
     volumes:
       - ${APP_DATA_DIR}/config:/config
-      - /run/dbus:/run/dbus:ro
     network_mode: host
