@@ -14,10 +14,8 @@ Um Probleme mit diesen Hauptversionsaktualisierungen zu vermeiden, ist es immer 
 Ihren Container manuell mit einem Backup- und Wiederherstellungsverfahren zu aktualisieren. 
 Weitere Informationen finden Sie im Wartungsabschnitt der ioBroker Docker Image -
 
-developer: Buanet
+developer: IoBroker
 website: https://www.iobroker.net/
-submitter: ioBroker
-submission: https://github.com/buanet/ioBroker.docker
 repo: https://github.com/buanet/ioBroker.docker
 support: https://github.com/buanet/ioBroker.docker/issues
 gallery:
@@ -31,5 +29,3 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IoBrokerLogo.svg
-submitter: Smarthome
-submission: https://github.com/recepucar/smarthome
