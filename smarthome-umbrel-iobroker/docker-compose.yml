@@ -2,7 +2,7 @@ version: "3.7"
 services:
   iobroker:
     container_name: iobroker
-    image: buanet/iobroker
+    image: buanet/iobroker:latest
     hostname: iobroker
     restart: always
     ports:
